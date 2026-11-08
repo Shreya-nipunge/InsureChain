@@ -1,0 +1,25 @@
+# Environment files and credentials.
+.env
+.env.*
+!.env.example
+
+# Dependencies, compiler outputs, caches and test artifacts.
+node_modules/
+/cache/
+/artifacts/
+/typechain/
+/typechain-types/
+/coverage/
+/coverage.json
+
+# Machine-specific local chain deployments.
+/deployments/localhost/
+/ignition/deployments/chain-31337/
+
+# Logs and key material.
+*.log
+npm-debug.log*
+*.pem
+*.key
+*.p12
+*.pfx
